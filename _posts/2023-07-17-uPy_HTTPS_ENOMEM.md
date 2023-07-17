@@ -7,7 +7,7 @@ title: ENOMEM when using urequests on MicroPython
 
 If you're making https requests with the MicroPython `requests` module, you might encounter ENOMEM errors. For me, they appeared after every 2nd request to a different HTTPS endpoint - 
 first endpoint request would always succeed. Weird stuff. Anyway, go get your own copy of the `requests` library from the MicroPython repo, and find where the `requests` function is returning
-a Request object.
+a Request object. [Library download link here](https://raw.githubusercontent.com/micropython/micropython-lib/master/python-ecosys/urequests/urequests.py)
 
 You'll notice that, before it, there are a bunch of error cases, and the socket is closed in case of those. In case of a successful HTTP response, however, the socket is not closed.
 
