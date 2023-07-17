@@ -13,7 +13,7 @@ You'll notice that, before it, there are a bunch of error cases, and the socket 
 
 Close it.
 
-```
+```python
         resp = Response(s)
         resp.status_code = status
         resp.reason = reason
@@ -24,5 +24,7 @@ Close it.
 ```
 
 I have no idea what the side effects are - my device is a throwie, it will reset itself if the code fails. I do know that this made the ENOMEM error disappear.
+
+After modifying this, upload this onto your device, and make sure that it is called instead of the builtin - I named my lib `urequests.py` and did `import urequests`. gl.
 
 If you think that this is bad advice, contact me somehow and let me know. Cheers!
