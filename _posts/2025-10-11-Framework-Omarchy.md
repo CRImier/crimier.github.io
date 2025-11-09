@@ -244,7 +244,7 @@ This makes it hard for me to even start persuading people who'd normally be easy
 to consider Framework for their next laptop, again, socially conscious mission and all.
 This is no Tesla situation, but to put it simply, I'd struggle recommending it.
 
-One another thing Framework looks out to get is a decrease in volunteer support.
+One other thing Framework looks to get is a decrease in volunteer support.
 I have to say that Framework is notable in their support for the project's volunteers,
 which is a smart decision for a product with a socially conscious mission.
 I'd expect at least some people to stick around, purely on the project's merits.
