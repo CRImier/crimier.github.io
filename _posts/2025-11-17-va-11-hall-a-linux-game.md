@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Va-11 Hall-A Julianna game achievement - 30FPS limit on Linux
+youtubeId: WqaXkjp0pDU
 ---
 
 Ever went for 100% completion on a game? Recently, I've replayed Va11 Hall-A, it's been a joy. I decided to go for 100% - by the way,
@@ -11,6 +12,8 @@ There was just one achievement left - [named `In the name of beauty!`](https://w
 requiring a win in the Model Warrior Julianne game. It's a tough one to win if you don't play those kinds of games.
 
 There's [a video](https://www.youtube.com/watch?v=WqaXkjp0pDU) that shows you a way to cheese the game.
+
+{% include youtubePlayer.html id=page.youtubeId %}
 
 However, if you were to try it, you'd quickly find that you need to set the video playback speed to 2x to match the game rate.
 Why's that? Apparently, VA11 Hall-A sped up the game from 30FPS to 60FPS at some point. A welcome development for the game, but,
