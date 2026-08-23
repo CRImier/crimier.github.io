@@ -24,6 +24,12 @@ Solution taken [from here](https://forum.armbian.com/topic/27457-connecting-bana
 
 This gets you to `/dev/spidev0.0`. Can try `modprobe spidev` if missing the device.
 
+The hardware is reportedly identical to Banana Pi P2 Zero, so images compatible with P2 Zero should work just as well (with the bonus of onboard Ethernet pads being enabled by default).
+
+Currently, USB appears broken on Armbian with 6.18 - hotplug does not function.
+There have been problems reported with 6.12.20 Armbian kernel that are [apparently fixable](https://forum.armbian.com/topic/51900-kernel-61220-banana-pi-m2-zero-usb-doesnt-work/),
+I am yet to see if the solution works on 6.18.
+
 To be continued, maybe.
 
 If you think that this is bad advice, contact me somehow and let me know. Cheers!
